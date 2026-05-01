@@ -1,3 +1,3 @@
 Olena Shliegel
 # olena-shliegel-spring26-intro
-Small learning projects for Code the Dream
+Lesson 5 coding assignment
