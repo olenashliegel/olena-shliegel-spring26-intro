@@ -3,76 +3,241 @@
 
 <head>
   <title>Olena Shliegel's Portfolio</title>
+
   <meta charset="UTF-8">
   <meta name="author" content="Olena Shliegel">
   <meta name="description" content="Lesson 5 CTD project. Creating boilerplate HTML">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <h1>Olena Shliegel</h1>
-  <nav>
-    <ul>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#experience">Experience</a>
-      </li>
-      <li>
-        <a href="#connect">Connect</a>
-      </li>
-      <li>
-        <a href="#hobby">Hobby</a>
-      </li>
-    </ul>
-  </nav>
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      I am learning web development and programming.
-      I am interested in becoming a software developer and building useful websites and applications.
-    </p>
-  </section>
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li>Intro to Programming course</li>
-      <li>Learning HTML, CSS, and JavaScript</li>
-      <li>Basic experience with GitHub</li>
-      <li>QA engineering background</li>
-      <li>Interested in full-stack development and AI</li>
-    </ul>
-  </section>
-  <section id="connect">
-    <h2>Connect</h2>
-    <ul>
-      <li>
-        <a href="https://linkedin.com/in/elenashlegel" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/olenashliegel" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-      </li>
-    </ul>
-  </section>
-  <section id="hobby">
-    <h2>Hobby</h2>
-    <ul>
-      <li>
-        <img src="img/dancing.jpg" width="150" height="150" alt="Hobby: Dancing picture">
-      </li>
-      <li>
-        <img src="img/dog.jpg" width="150" height="150" alt="Hobby: Favorite dog picture">
-      </li>
-      <li>
-        <img src="img/iceSkating.jfif" width="150" height="150" alt="Hobby: Ice Skating picture">
-      </li>
-    </ul>
-  </section>
+  <div class="container">
+
+    <!-- Navigation -->
+    <div class="navigation">
+      <h1>Olena Shliegel</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#connect">Connect</a>
+          </li>
+          <li>
+            <a href="#hobby">Hobby</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <!-- About Section -->
+      <section id="about" class="about section-container">
+        <h2>About</h2>
+        <img class="about" src="img/intro.jpg" alt="Motivation picture">
+        <p>
+          Back in school, I had a dream to become a programmer. I managed to get into a
+          Computer Science program, but unfortunately, I struggled immensely with programming. I couldn't understand the
+          instructors, found it hard to
+          concentrate for extended periods, and honestly, my personal life seemed to intrigue me more than my dream. So,
+          after barely graduating, I ventured into a completely different field. I began as a recruiter and later
+          transitioned
+          into HR. I was successful and built an impressive career, leaving behind my initial dream.
+        </p>
+        <p>
+          The next chapter in my journey was joining an IT company as an HR manager. Here, I was reminded of my
+          aspiration to code. I took it upon myself to learn, and although the idea of a career switch was intimidating,
+          I decided to
+          pivot slightly within the same IT domain: I became a QA Engineer. Once again, I built my career from the
+          ground up,
+          advancing to a QA Lead position. However, working closely with developers, I never truly forgot what I
+          truly desired.
+        </p>
+        <p>
+          Now, after taking an almost six-year break to relocate to a new country and fully immerse myself in the role
+          of
+          a
+          full-time mother, I'm setting out to turn that dream into a concrete objective and
+          realize it. On this page, you can discover more about me, my expertise, knowledge, passions, and interests.
+        </p>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section-container">
+        <h2>Experience</h2>
+        <div class="experience">
+          <!-- Experience 1 -->
+          <div class="experience-position">
+            <h3>QA Lead Engineer/Team Lead/Business analyst</h3>
+          </div>
+          <div class="experience-description">
+            <h4>A-MTOSS, Ltd., Project Mein A1 business</h4>
+            <div class="dates">
+              <p>06/2019 - 08/2020</p>
+            </div>
+            <p><strong>PROJECT INFORMATION:</strong>
+              Mein A1 Business is a web portal designed for
+              enterprise customers of <em>Austria Telecom</em>. It provides a centralized platform for accessing
+              information
+              from different services in one place. The portal is designed to simplify and streamline
+              communication, enabling customers to easily manage their services, view invoices, and
+              access support. With Mein A1 Business, <em>Austria Telecom</em> customers can access a range
+              of tools and resources that help them better understand and manage their telecom
+              services.
+            </p>
+            <h4>ACHIEVEMENTS:</h4>
+            <div class="achievements">
+              <ol>
+                <li>Successfully established and led a QA team from scratch, resulting in a significant improvement in
+                  software quality and reduced defect rates.</li>
+                <li>Implemented quality assurance policies and procedures that led to more efficient and effective
+                  testing and improved software quality.</li>
+                <li>Developed and implemented a defect tracking and resolution process that resulted in a faster and
+                  more effective resolution of defects, reducing the time-to-market of releases.</li>
+                <li>Successfully provided guidance and mentorship to junior QA team members, resulting in their
+                  professional growth and improved team performance.</li>
+                <li>Collaborated effectively with the development team to ensure timely and effective defect resolution,
+                  resulting in reduced defect rates and improved software quality.</li>
+                <li>Implemented process improvements that significantly increased the efficiency and effectiveness of
+                  the QA team, resulting in reduced testing time and improved software quality.</li>
+                <li>Conducted root cause analysis on defects and implemented corrective actions that prevented future
+                  occurrences.</li>
+                <li>Successfully conducted risk assessments and developed mitigation strategies that minimized project
+                  risks, resulting in successful project outcomes.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <!-- Experience 2 -->
+        <div class="experience">
+          <div class="experience-position">
+            <h3>QA Lead Engineer/Business analyst</h3>
+          </div>
+          <div class="experience-description">
+            <h4>A-MTOSS, Ltd. Project PartnerWeb</h4>
+            <div class="dates">
+              <p>02/2019 -04/2020</p>
+            </div>
+            <p><strong>PROJECT INFORMATION:</strong>
+              PartnerWeb is a web application with service-oriented
+              architecture. It is spread across several distinct server groups to ensure high availability
+              and scalability. PartnerWeb is used by <em>A1 partners</em>, including individuals, small companies,
+              retail chains, and large enterprises that sell <em>A1 products</em> to customers. They use
+              PartnerWeb in <em>A1 shops</em> to capture customer orders and requests. The application is
+              designed to streamline the ordering process and ensure efficient customer service.
+              PartnerWeb has a complex structure and multiple integrations with various systems.
+            </p>
+            <h4>ACHIEVEMENTS:</h4>
+            <div class="achievements">
+              <ol>
+                <li>Successfully coordinated the testing of software releases to ensure timely launches.</li>
+                <li>Ensured the product met user expectations and specifications by conducting effective
+                  feature testing and analyzing requirements.</li>
+                <li>Configured test environments to ensure accurate and effective testing, resulting in
+                  more reliable testing efforts and higher quality product releases.</li>
+                <li>Identified critical issues and areas for improvement in business functionality through
+                  business analysis, resulting in more efficient and effective testing efforts.</li>
+                <li>As QA Lead, I took the lead in initiating, organizing, and producing project
+                  documentation.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <!-- Experience 3 -->
+        <div class="experience">
+          <div class="experience-position">
+            <h3>QA Lead Engineer</h3>
+          </div>
+          <div class="experience-description">
+            <h4>EPAM Systems Ukraine, Ltd. Project CCC</h4>
+            <div class="dates">
+              <p>06/2018-02/2019</p>
+            </div>
+            <p><span class="emphasis-bold">PROJECT INFORMATION:</span>
+              The project is enterprise management system for the company
+              that provides content management, licensing, and copyright compliance services to a
+              diverse range of customers globally. Their innovative solutions help organizations
+              manage their content, obtain permissions, and comply with copyright laws. Our
+              responsibilities included designing and implementing carts, orders, and invoicing
+              systems, payment processing, and various integration services.
+            </p>
+            <h4>ACHIEVEMENTS:</h4>
+            <div class="achievements">
+              <ol>
+                <li>Successfully managed to release 6 releases with critical functionality.</li>
+                <li>Managed all the project’s tasks in time.</li>
+                <li>Successfully organized regressions/smoke sets from scratch.</li>
+                <li>Developed a skilled QA team.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section-container">
+        <h2>Skills</h2>
+      </section>
+
+      <!-- Project Section -->
+      <section id="projects" class="section-container">
+        <h2>Projects</h2>
+        <ul>
+
+        </ul>
+      </section>
+
+      <!-- Connect Section -->
+      <section id="connect" class="section-container">
+        <h2>Connect</h2>
+        <div class="networks-links">
+          <a href="https://github.com/olenashliegel/" target="_blank" rel="noopener noreferrer">
+            <img src="img/github-svgrepo-com.svg" alt="GitHub icon">
+          </a>
+          <a href="https://www.linkedin.com/in/elenashlegel/" target="_blank" rel="noopener noreferrer">
+            <img src="img/linkedin-icon.svg" alt="LinkedIn icon">
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=1394584634" target="_blank" rel="noopener noreferrer">
+            <img src="img/facebook-icon.svg" alt="Facebook icon">
+          </a>
+        </div>
+      </section>
+
+      <!-- Hobby Section -->
+      <section id="hobby" class="section-container">
+        <h2>Hobby</h2>
+        <ul class="hobby-cards-container">
+          <li class="hobby-card">
+            <img src="img/dancing.jpg" alt="Hobby: Dancing picture">
+            <p>Our dancing team</p>
+          </li>
+          <li class="hobby-card">
+            <img src="img/friends.jpeg" alt="Hobby: Hiking picture">
+            <p>Hiking</p>
+          </li>
+          <li class="hobby-card">
+            <img src="img/iceskating.jpeg" alt="Hobby: Ice Skating picture">
+            <p>Ice skating</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
 </body>
 
 </html>
